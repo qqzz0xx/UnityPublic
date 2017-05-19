@@ -30,12 +30,12 @@ class Network : IDisposable
 
     public string IP
     {
-        get;
+        get {return m_IP;}
     }
 
     public int Port
     {
-        get;
+        get {return m_Port;}
     }
 
     public Network(string server, int port)
